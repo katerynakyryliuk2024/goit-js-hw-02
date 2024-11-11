@@ -31,12 +31,4 @@ console.log(getShippingCost("Chile")); // "Shipping to Chile will cost 250 credi
 console.log(getShippingCost("Jamaica")); // "Shipping to Jamaica will cost 120 credits"
 console.log(getShippingCost("Sweden")); // "Sorry, there is no delivery to your country"
 
-function createArrayOfNumbers(min, max) {
- const array = [];
-  for (let i = min; i <= max; index++) {
-    array.push (i);
-    }
-    return array;
-}
 
-createArrayOfNumbers(14, 17) 
